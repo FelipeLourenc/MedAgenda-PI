@@ -27,6 +27,18 @@ O objetivo é fornecer uma ferramenta simples e prática que conecta médicos e 
 
 <h2 id="Desenvolvimento"> Desenvolvimento</h2>
 
+O uso da ferramenta visa otimizar o processo de agendamento e acesso a informações de saúde, facilitando a comunicação e o acompanhamento tanto para pacientes quanto para profissionais da saúde, com foco em conveniência e praticidade, oferecendo as seguintes funcionalidades:
 
+Para Pacientes:
+
+- Marcação simplificada de consultas: Agendamento online intuitivo, com visualização de horários disponíveis e escolha de profissionais/especialidades;
+- Acesso ao histórico de exames: Visualização rápida e segura de resultados de exames realizados;
+- Notificações inteligentes: Lembretes de consultas agendadas para evitar esquecimentos.
+
+Para Médicos:
+
+- Gestão de agenda: Visualização e organização eficiente da agenda de consultas;
+- Acesso ao histórico de exames de pacientes: Consulta rápida e segura do histórico de exames de seus pacientes para acompanhamento.
+  
 
 <h2 id="colab"> Colaboradores</h2>
