@@ -1,7 +1,7 @@
 <h1 align="center" style="font-weight: bold;">MedAgenda</h1>
 
 <p align="center">
- <a href="#introdução">Intodução</a> • 
+ <a href="#introdução">Introdução</a> • 
   <a href="#objetivo">Objetivo</a> •
  <a href="#tecnologia">Tecnologias</a> •
  <a href="#desenvolvimeto">Desenvolvimento</a> •
