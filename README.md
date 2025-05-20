@@ -34,7 +34,7 @@ Para Médicos:
 
 <h2 id="Tecnologias"> Tecnologias</h2>
 
-- Lista de tecnologias utilizadas:
+- 
 - 
 - 
 - 
