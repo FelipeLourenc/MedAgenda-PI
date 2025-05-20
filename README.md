@@ -2,11 +2,11 @@
 
 <p align="center">
  <a href="#introdução">Introdução</a> • 
-  <a href="#objetivo">Objetivo</a> •
+  <a href="#descrição">Descrição do Projeto</a> •
  <a href="#tecnologia">Tecnologias</a> •
- <a href="#desenvolvimeto">Desenvolvimento</a> •
- <a href="#colab">Colaboladores</a> •
- <a href="#conclusão"</a>Conclusão</a>
+  <a href="#colab">Colaboladores e Contribuições</a> •
+ <a href="#links">Links do Projeto</a> 
+ <a href="#"</a></a>
 </p>
 <p align="center">
     <b>
@@ -17,7 +17,7 @@
 O MedAgenda é uma ferramenta simples e prática que conecta médicos e pacientes via aplicativo WEB. Com um sistema intuitivo, ele permite que os pacientes agendem consultas utilizando seus convênios de maneira facilitada, reduzindo burocracias e melhorando a experiência de atendimento médico. 
 
 
-<h2 id="Objetivo"> Objetivo</h2>
+<h2 id="descriçao"> Descrição do Projeto</h2>
 
 O uso da ferramenta visa otimizar o processo de agendamento e acesso a informações de saúde, facilitando a comunicação e o acompanhamento tanto para pacientes quanto para profissionais da saúde, com foco em conveniência e praticidade, oferecendo as seguintes funcionalidades:
 
@@ -39,18 +39,17 @@ Para Médicos:
 - 
 - 
 
-<h2 id="Desenvolvimento"> Desenvolvimento</h2>
+
+<h2 id="colab"> Colaboradores e Contribuições</h2>
+
+* [Danielle Rossetti Rodrigues](https://github.com/danieller) - Readme (GitHub)
+* [Lana Ariza Obuti]() - Backend
+* [Luis Felipe Lourenco](https://github.com/FelipeLourenc) - Landing page (GitHub) - Video
+* [Gustavo Pereira Martins](https://github.com/gustapmartins) - Frontend
+* [Helison Savio Ramos](https://github.com/HeliSaviON) - Frontend
+* [Thales Shinji Sato](https://github.com/ThalesShinji) - Modelo Fisico de Banco de Dados 
+* [Joao Wallace Leonel Pereira](https://github.com/wallaceleonel) - Backend
+
+<h2 id="links"> Links do Projeto</h2>
 
 
-
-<h2 id="colab"> Colaboradores</h2>
-
-* [Danielle Rossetti Rodrigues](https://github.com/danieller)
-* [Lana Ariza Obuti](
-* [Luis Felipe Lourenco](https://github.com/FelipeLourenc)
-* [Gustavo Pereira Martins](https://github.com/gustapmartins)
-* [Helison Savio Ramos](https://github.com/HeliSaviON)
-* [Thales Shinji Sato](https://github.com/ThalesShinji)
-* [Joao Wallace Leonel Pereira](https://github.com/wallaceleonel)
-
- <h2 id="conclusão"> Conclusão</h2>
