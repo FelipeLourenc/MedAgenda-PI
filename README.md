@@ -6,7 +6,7 @@
  <a href="#tecnologia">Tecnologias</a> •
  <a href="#desenvolvimeto">Desenvolvimento</a> •
  <a href="#colab">Colaboladores</a> •
- <a href="#</a>
+ <a href="#conclusão"</a>Conclusão</a>
 </p>
 <p align="center">
     <b>
@@ -44,3 +44,13 @@ Para Médicos:
 
 
 <h2 id="colab"> Colaboradores</h2>
+
+* [Danielle Rossetti Rodrigues](https://github.com/danieller)
+* [Lana Ariza Obuti](
+* [Luis Felipe Lourenco](https://github.com/FelipeLourenc)
+* [Gustavo Pereira Martins](https://github.com/gustapmartins)
+* [Helison Savio Ramos](https://github.com/HeliSaviON)
+* [Thales Shinji Sato](https://github.com/ThalesShinji)
+* [Joao Wallace Leonel Pereira](https://github.com/wallaceleonel)
+
+ <h2 id="conclusão"> Conclusão</h2>
