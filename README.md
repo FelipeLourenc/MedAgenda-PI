@@ -40,7 +40,8 @@ Para Médicos:
 - 
 
 <h2 id="Modelo"> Modelo Fisico de Banco de Dados</h2>
-Grupo 33 - 2.png
+<img src="Grupo 33 - 2.png">
+
 
 <h2 id="colab"> Colaboradores e Contribuições</h2>
 
