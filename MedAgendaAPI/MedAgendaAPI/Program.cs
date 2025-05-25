@@ -16,6 +16,13 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+// Aplica as migrações pendentes automaticamente
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<ClinicaContext>();
+    db.Database.Migrate();
+}
+
 // Middleware para Swagger
 if (app.Environment.IsDevelopment())
 {
