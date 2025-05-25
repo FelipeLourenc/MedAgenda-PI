@@ -19,21 +19,32 @@ namespace ClinicaAPI.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            // Relacionamentos:
-
             modelBuilder.Entity<Medico>()
                 .HasOne(m => m.User)
-                .WithMany()
-                .HasForeignKey(m => m.UserId)
+                .WithOne(u => u.Medico)
+                .HasForeignKey<Medico>(m => m.UserId)
                 .OnDelete(DeleteBehavior.Cascade);
 
             modelBuilder.Entity<Paciente>()
                 .HasOne(p => p.User)
-                .WithMany()
-                .HasForeignKey(p => p.UserId)
+                .WithOne(u => u.Paciente)
+                .HasForeignKey<Paciente>(p => p.UserId)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            // Outras configurações podem ser adicionadas aqui
+            modelBuilder.Entity<Consulta>()
+                .HasOne(c => c.Medico)
+                .WithMany(m => m.Consultas)
+                .HasForeignKey(c => c.MedicoId);
+
+            modelBuilder.Entity<Consulta>()
+                .HasOne(c => c.Paciente)
+                .WithMany(p => p.Consultas)
+                .HasForeignKey(c => c.PacienteId);
+
+            modelBuilder.Entity<Exame>()
+                .HasOne(e => e.Paciente)
+                .WithMany(p => p.Exames)
+                .HasForeignKey(e => e.PacienteId);
         }
     }
 }

@@ -77,7 +77,7 @@ namespace ClinicaAPI.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Medico>> GetMedico(int id)
         {
-            var medico = await _context.Medicos.Include(m => m.User).FirstOrDefaultAsync(m => m.MedId == id);
+            var medico = await _context.Medicos.Include(m => m.User).FirstOrDefaultAsync(m => m.Id == id);
             if (medico == null) return NotFound();
             return medico;
         }
@@ -87,13 +87,13 @@ namespace ClinicaAPI.Controllers
         {
             _context.Medicos.Add(medico);
             await _context.SaveChangesAsync();
-            return CreatedAtAction(nameof(GetMedico), new { id = medico.MedId }, medico);
+            return CreatedAtAction(nameof(GetMedico), new { id = medico.Id }, medico);
         }
 
         [HttpPut("{id}")]
         public async Task<IActionResult> PutMedico(int id, Medico medico)
         {
-            if (id != medico.MedId) return BadRequest();
+            if (id != medico.Id) return BadRequest();
 
             _context.Entry(medico).State = EntityState.Modified;
             try
@@ -102,7 +102,7 @@ namespace ClinicaAPI.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!_context.Medicos.Any(e => e.MedId == id)) return NotFound();
+                if (!_context.Medicos.Any(e => e.Id == id)) return NotFound();
                 else throw;
             }
             return NoContent();
@@ -133,7 +133,7 @@ namespace ClinicaAPI.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Paciente>> GetPaciente(int id)
         {
-            var paciente = await _context.Pacientes.Include(p => p.User).FirstOrDefaultAsync(p => p.PacienteId == id);
+            var paciente = await _context.Pacientes.Include(p => p.User).FirstOrDefaultAsync(p => p.Id == id);
             if (paciente == null) return NotFound();
             return paciente;
         }
@@ -143,13 +143,13 @@ namespace ClinicaAPI.Controllers
         {
             _context.Pacientes.Add(paciente);
             await _context.SaveChangesAsync();
-            return CreatedAtAction(nameof(GetPaciente), new { id = paciente.PacienteId }, paciente);
+            return CreatedAtAction(nameof(GetPaciente), new { id = paciente.Id }, paciente);
         }
 
         [HttpPut("{id}")]
         public async Task<IActionResult> PutPaciente(int id, Paciente paciente)
         {
-            if (id != paciente.PacienteId) return BadRequest();
+            if (id != paciente.Id) return BadRequest();
 
             _context.Entry(paciente).State = EntityState.Modified;
             try
@@ -158,7 +158,7 @@ namespace ClinicaAPI.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!_context.Pacientes.Any(e => e.PacienteId == id)) return NotFound();
+                if (!_context.Pacientes.Any(e => e.Id == id)) return NotFound();
                 else throw;
             }
             return NoContent();
@@ -199,13 +199,13 @@ namespace ClinicaAPI.Controllers
         {
             _context.Consultas.Add(consulta);
             await _context.SaveChangesAsync();
-            return CreatedAtAction(nameof(GetConsulta), new { id = consulta.ConsultaId }, consulta);
+            return CreatedAtAction(nameof(GetConsulta), new { id = consulta.Id }, consulta);
         }
 
         [HttpPut("{id}")]
         public async Task<IActionResult> PutConsulta(int id, Consulta consulta)
         {
-            if (id != consulta.ConsultaId) return BadRequest();
+            if (id != consulta.Id) return BadRequest();
 
             _context.Entry(consulta).State = EntityState.Modified;
             try
@@ -214,7 +214,7 @@ namespace ClinicaAPI.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!_context.Consultas.Any(e => e.ConsultaId == id)) return NotFound();
+                if (!_context.Consultas.Any(e => e.Id == id)) return NotFound();
                 else throw;
             }
             return NoContent();
@@ -255,13 +255,13 @@ namespace ClinicaAPI.Controllers
         {
             _context.Exames.Add(exame);
             await _context.SaveChangesAsync();
-            return CreatedAtAction(nameof(GetExame), new { id = exame.ExameId }, exame);
+            return CreatedAtAction(nameof(GetExame), new { id = exame.Id }, exame);
         }
 
         [HttpPut("{id}")]
         public async Task<IActionResult> PutExame(int id, Exame exame)
         {
-            if (id != exame.ExameId) return BadRequest();
+            if (id != exame.Id) return BadRequest();
 
             _context.Entry(exame).State = EntityState.Modified;
             try
@@ -270,7 +270,7 @@ namespace ClinicaAPI.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!_context.Exames.Any(e => e.ExameId == id)) return NotFound();
+                if (!_context.Exames.Any(e => e.Id == id)) return NotFound();
                 else throw;
             }
             return NoContent();
