@@ -1,0 +1,53 @@
+# Build artifacts
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+.vscode/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider IDE files
+.idea/
+
+# ASP.NET Core
+appsettings.*.json
+wwwroot/uploads/
+
+# Entity Framework Migrations
+Migrations/
+
+# Logs
+*.log
+
+# NuGet packages
+*.nupkg
+packages/
+.nuget/
+
+# Publish output
+publish/
+
+# Dotnet
+*.dotCover
+*.dotCover.Layered.xml
+*.dotSettings.user
+*.resharper
+*.sln.DotSettings
+_ReSharper.*
+*.DotSettings
+
+# Backup files
+*~
+*.bak
+*.backup
+
+# Others
+*.db
+*.sqlite
+*.sqlite3
