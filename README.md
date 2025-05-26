@@ -34,9 +34,9 @@ Para Médicos:
 
 <h2 id="Tecnologias"> Tecnologias</h2>
 
-- 
-- 
-- 
+- ASP.NET Core 8
+- Entity Framework Core
+- PostgreSQL
 - 
 
 <h2 id="Modelo"> Modelo Fisico de Banco de Dados</h2>
