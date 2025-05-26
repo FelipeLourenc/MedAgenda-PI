@@ -48,6 +48,7 @@ Para Médicos:
 * [Danielle Rossetti Rodrigues](https://github.com/danieller) - Readme (GitHub)
 * [Lana Ariza Obuti]() - Backend
 * [Luis Felipe Lourenco](https://github.com/FelipeLourenc) - Landing page (GitHub) - Video
+* [Mariana Dias Oliveira] - Landing page (Chamada para ação secundaria, seção de preços, rodapé, formulário de contato)
 * [Gustavo Pereira Martins](https://github.com/gustapmartins) - Frontend
 * [Helison Savio Ramos](https://github.com/HeliSaviON) - Frontend
 * [Thales Shinji Sato](https://github.com/ThalesShinji) - Modelo Fisico de Banco de Dados 
