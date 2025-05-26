@@ -14,7 +14,7 @@
 
 <h2 id="Introdução"> Introdução</h2>
 
-O MedAgenda é uma ferramenta simples e prática que conecta médicos e pacientes via aplicativo WEB. Com um sistema intuitivo, ele permite que os pacientes agendem consultas utilizando seus convênios de maneira facilitada, reduzindo burocracias e melhorando a experiência de atendimento médico. 
+O MedAgenda é uma ferramenta simples e prática que conecta médicos e pacientes via aplicativo. Com um sistema intuitivo, ele permite que os pacientes agendem consultas utilizando seus convênios de maneira facilitada, reduzindo burocracias e melhorando a experiência de atendimento médico. 
 
 
 <h2 id="descriçao"> Descrição do Projeto</h2>
