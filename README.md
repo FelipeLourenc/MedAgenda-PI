@@ -58,7 +58,7 @@ Para o desenvolvimento prático, contamos com ferramentas excelentes. O Expo ofe
 
 As vantagens dessa stack são impressionantes: desenvolvimento significativamente mais rápido que as abordagens nativas tradicionais, com performance próxima do nativo puro. A curva de aprendizado é suave, especialmente para desenvolvedores com experiência em React. O TypeScript reduz drasticamente erros comuns de JavaScript, enquanto mantemos toda a flexibilidade do ecossistema JavaScript. O resultado são aplicativos com código mais limpo, manutenção simplificada e maior confiabilidade.
 
-Essa combinação representa o estado da arte no desenvolvimento mobile multiplataforma, equilibrando produtividade e performance de maneira excepcional. Ela permite desde a criação de protótipos rápidos até aplicativos complexos para produção, tudo com uma base de código compartilhada que reduz custos e tempo de desenvolvimento. Para equipes que já dominam JavaScript, a adoção é natural, e os benefícios em qualidade e velocidade de desenvolvimento são perceptíveis desde os primeiros projetos. Se precisar de exemplos mais detalhados ou orientação sobre como começar, posso fornecer informações mais específicas sobre qualquer aspecto desse ecossistema.
+Essa combinação representa o estado da arte no desenvolvimento mobile multiplataforma, equilibrando produtividade e performance de maneira excepcional. Ela permite desde a criação de protótipos rápidos até aplicativos complexos para produção, tudo com uma base de código compartilhada que reduz custos e tempo de desenvolvimento. Para equipes que já dominam JavaScript, a adoção é natural, e os benefícios em qualidade e velocidade de desenvolvimento são perceptíveis desde os primeiros projetos. 
 
 <h3 id="Back"> Back-end</h3>
 
@@ -74,7 +74,7 @@ Na estrutura do projeto, organizamos o código em camadas lógicas: uma parte cu
 
 As vantagens dessa abordagem são significativas: obtemos um sistema rápido desde o primeiro dia, com arquitetura preparada para crescer conforme a demanda aumenta. O desenvolvimento se torna mais ágil porque muitas funcionalidades básicas já estão incluídas no framework, enquanto o PostgreSQL garante que nossos dados permaneçam íntegros e disponíveis. Um exemplo prático seria uma API para gerenciar produtos, onde com poucas linhas de código podemos oferecer operações completas de cadastro, consulta e atualização - com o ASP.NET Core gerenciando as requisições, o Entity Framework interagindo com o banco de dados e o PostgreSQL armazenando tudo com eficiência.
 
-Essa combinação de tecnologias forma uma base excelente para diversos tipos de aplicações, desde sistemas internos até plataformas abertas na internet. Ela equilibra simplicidade no desenvolvimento com robustez na operação, permitindo que nos concentremos em resolver problemas reais e entregar valor aos usuários finais, sem nos perdermos em complexidades técnicas desnecessárias. Se precisar explorar algum aspecto específico com mais detalhes ou ver exemplos mais concretos, estou à disposição para aprofundar a explicação.
+Essa combinação de tecnologias forma uma base excelente para diversos tipos de aplicações, desde sistemas internos até plataformas abertas na internet. Ela equilibra simplicidade no desenvolvimento com robustez na operação, permitindo que nos concentremos em resolver problemas reais e entregar valor aos usuários finais, sem nos perdermos em complexidades técnicas desnecessárias. 
 
 <h2 id="Modelo"> Modelo Fisico de Banco de Dados</h2>
 <img src="Grupo 33 - 2.png">
